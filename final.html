@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Final</title>
+
+    <link rel="stylesheet" type="text/css" href="newStyle.css" />
+    
+    <script src="./lib/jquery-3.6.4.js"></script>
+    <script src="final.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+    <header>2022 Nominated Poetry Books</header>
+
+    
+    
+    <div id="dash">
+    <div id="crudInfo"></div>
+        
+            <div class="bookButton">
+                <label for="crud"></label>
+                <select name="crudButton" id="crudButton">
+                    
+                    <option value="C">C</option>
+                    <option value="R">R</option>
+                    <option value="U">U</option>
+                    <option value="D">D</option>
+                    
+                    </select> 
+    
+                <button onclick="showPie()" id="submitButton">Submit</button>
+
+               
+            </div>
+    </div>
+
+        <div id="bookList"></div>
+        
+        <div id="selectedBookInfo"></div>
+
+        <div id="bookImages"></div>
+
+</div>
+</body>
+</html>

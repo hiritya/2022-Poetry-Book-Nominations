@@ -1,0 +1,105 @@
+
+#wrapper{
+    width: 1200px;
+    height: 950px;
+    background-color: #AFDB9A;
+}
+
+header{
+    width: 1160px;
+    height:80px;
+    background-color:#375C25;
+    color: beige;
+    text-align: center;
+    font-size: 1.5cm;
+    font-weight:bolder;
+    border: 20px solid #89AB78;
+}
+
+#dash{
+    width: 300px;
+    line-height: 2;
+    background-color: beige;
+    padding:20px;
+    color: #375C25;
+    border: solid #375C25 20px;
+}
+
+
+#crudButton{
+background-color: #89AB78;
+margin-left: 20px;
+font-size: large;
+color:#375C25
+}
+
+select {
+
+background-color: #375C25;
+cursor: pointer;
+}
+
+
+button{
+    width: 120px;
+    height: 30px;
+    border:#9CA3D9;
+    color:#AFDB9A;
+    border-radius: 5px;
+    background-color: #375C25;
+    margin:5px;
+}
+
+button:hover {
+    background-color:#AFDB9A;
+    transition: 0.5s;
+    color:#375C25;
+  }
+
+#selectedBookInfo{
+background-color: beige;
+width: 320px;
+color: #375C25;
+border: solid #89AB78 20px;
+line-height: 2;
+padding:10px;
+}
+
+
+#bookList{
+    background-color:#375C25;
+    color: beige;
+    border:solid beige 20px;
+    padding:10px;
+
+    width:300px;
+    position:absolute;
+    left:388px;
+    top:128px;
+}
+
+#bookImages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: #89AB78;
+    text-overflow:hidden;
+    position:absolute;
+    left:748px;
+    top:128px;
+    width:400px;
+    border: solid #375C25 20px;
+}
+
+
+img{
+    height:144px;
+    width:95px;
+    border: solid beige 2px;
+   
+    
+}
+
+
